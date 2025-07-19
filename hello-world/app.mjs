@@ -13,6 +13,7 @@
 
 export const lambdaHandler = async (event, context) => {
 //  throw new Error("This will cause a deployment rollback")
+    console.log("Change deployed with SAM Accelerate")
     try {
         return {
             'statusCode': 200,

@@ -15,6 +15,6 @@ describe('Tests index', function () {
         let response = JSON.parse(result.body);
 
         expect(response).to.be.an('object');
-        expect(response.message).to.be.equal("hello world my friend");
+        expect(response.message).to.be.equal("I'm using canary deployments");
     });
 });
